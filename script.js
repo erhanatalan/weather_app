@@ -55,7 +55,6 @@ const getWeather = async () =>{
             </div>
         </div>
         `
-        console.log(data);
 
     }catch(error){
         console.log(error);
