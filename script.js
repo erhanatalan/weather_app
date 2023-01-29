@@ -35,8 +35,8 @@ const getWeather = async () =>{
         const data = await res.json()
 
         document.querySelector(".durum").innerHTML=`
-        <div class="row justify-content-center mt-3 ">
-            <div class="card" style="width: 18rem;">
+        <div class="row justify-content-center ">
+            <div class="card shadow p-2 bg-white rounded " style="width: 18rem;">
                 <img src="./img/${data.weather[0].icon}.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${data.name}</h5>

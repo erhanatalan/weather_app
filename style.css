@@ -9,12 +9,17 @@ body{
     background-image: url("./img/bg.png");
     background-repeat:no-repeat;
     background-size:cover;
-    background-position-x:-300px ;
+    background-position-x:center ;
     height: 100vh;
-    margin-right: 10%;
-    
+    object-fit: cover;
 }
 
 .card-img-top{
     height: 140px;
+}
+.card{
+    opacity: 0.8;
+}
+.card-img-top{
+    opacity: 1.0 !important;
 }
